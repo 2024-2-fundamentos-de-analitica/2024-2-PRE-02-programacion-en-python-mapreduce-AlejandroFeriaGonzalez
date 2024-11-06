@@ -31,6 +31,7 @@ def load_input(input_directory):
         for line in fileinput.input(file)
     ]
 
+
 print(*load_input("files/input"), end="\n")
 
 #
